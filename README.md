@@ -46,3 +46,14 @@ Then visit `http://localhost:4000/PhenoChange/`.
 ## Notes
 
 The website uses the GitHub Pages-supported Jekyll system. The current visual mark is a temporary leaf-and-sun device and can be replaced once a formal PhenoChange logo is developed.
+
+## Current visual assets
+
+Project photographs and the network map are stored in `assets/images/project/`. The homepage, Data page and Protocols page use these files through Jekyll's `relative_url` filter, so they work both locally and at `https://kyledexter.github.io/PhenoChange/`.
+
+## Protocols page
+
+The navigation now includes a `Protocols` page (`protocols.md`). Replace the placeholder status text and add downloadable files as protocols are finalised.
+
+## People-page note
+Bruna Alberton is included as a Site Leader with a designed placeholder image. Replace `assets/images/people/bruna-alberton.svg` with a portrait later, keeping the same filename or updating `_data/people.yml`.

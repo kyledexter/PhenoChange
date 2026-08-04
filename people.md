@@ -3,5 +3,24 @@ layout: default
 title: People
 permalink: /people/
 ---
-<section class="page-hero"><div class="shell narrow"><p class="eyebrow">People</p><h1>The researchers behind the network.</h1><p class="lead">This page is designed to grow as project members and collaborators are added.</p></div></section>
-<section class="section"><div class="shell"><div class="card-grid people-grid">{% for person in site.data.people %}<article class="person-card{% if person.placeholder %} placeholder-card{% endif %}"><img src="{{ person.image | relative_url }}" alt="{% if person.placeholder %}Placeholder portrait{% else %}Portrait of {{ person.name }}{% endif %}"><div class="card-body"><p class="card-kicker">{{ person.role }}</p><h2>{{ person.name }}</h2><p class="institution-name">{{ person.institution }}</p><p>{{ person.bio }}</p>{% unless person.placeholder %}<div class="text-links">{% if person.website != '' %}<a href="{{ person.website }}">Profile</a>{% endif %}{% if person.orcid != '' %}<a href="https://orcid.org/{{ person.orcid }}">ORCID</a>{% endif %}{% if person.email != '' %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}</div>{% endunless %}</div></article>{% endfor %}</div><div class="editor-note"><h2>Adding a person</h2><p>Edit <code>_data/people.yml</code>, copy the example entry, and add a photograph to <code>assets/images/people/</code>. No page-layout editing is required.</p></div></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">The network</p><h1>People</h1></div></section>
+{% assign groups = "Coordinators,Site Leaders" | split: "," %}
+{% for group in groups %}
+<section class="section {% if group == 'Site Leaders' %}muted-section{% endif %}">
+  <div class="shell">
+    <div class="people-section-heading"><h2>{{ group }}</h2></div>
+    <div class="card-grid people-grid {% if group == 'Coordinators' %}coordinator-grid{% else %}site-leader-grid{% endif %}">
+    {% for person in site.data.people %}{% if person.group == group %}
+      <article class="person-card">
+        <div class="person-photo-wrap"><img src="{{ person.image | relative_url }}" alt="Portrait of {{ person.name }}" loading="lazy"></div>
+        <div class="card-body">
+          <h3>{{ person.name }}</h3>
+          <p class="institution-name">{{ person.institution }}</p>
+          <a class="button button-secondary profile-button" href="{{ person.website }}" target="_blank" rel="noopener">{{ person.link_label }}</a>
+        </div>
+      </article>
+    {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}

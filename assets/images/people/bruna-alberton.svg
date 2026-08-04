@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-labelledby="title desc">
+<title id="title">Bruna Alberton placeholder portrait</title><desc id="desc">Decorative placeholder with initials BA and leaves.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef2df"/><stop offset="1" stop-color="#d8b56a"/></linearGradient></defs>
+<rect width="600" height="700" fill="url(#bg)"/>
+<path d="M88 560c75-130 165-204 280-226-45 70-66 143-61 219-82-6-154-4-219 7Z" fill="#55784a" opacity=".33"/>
+<path d="M474 132c-100 36-157 102-174 200 87-10 157-55 174-200Z" fill="#355b32" opacity=".26"/>
+<circle cx="300" cy="318" r="146" fill="#fffdf7" opacity=".9"/>
+<text x="300" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" fill="#355b32">BA</text>
+<text x="300" y="620" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="4" fill="#70462f">PHOTO COMING SOON</text>
+</svg>

@@ -1,7 +1,40 @@
-# Add partner and supporting institutions here.
-- name: Partner institution
-  country: Country
-  role: Briefly describe the institution's role in PhenoChange.
-  logo: /assets/images/institution-placeholder.svg
-  website: ""
-  placeholder: true
+- name: Embrapa
+  country: Brazil
+  logo: /assets/images/logos/embrapa.jpeg
+  website: https://www.embrapa.br/
+- name: ISCED-Huíla
+  country: Angola
+  logo: /assets/images/logos/iscedhuila.jpeg
+  website: https://isced-huila.ed.ao/
+- name: Namibia University of Science and Technology
+  country: Namibia
+  logo: /assets/images/logos/nust.png
+  website: https://www.nust.na/
+- name: Universidade Estadual de Montes Claros (UNIMONTES)
+  country: Brazil
+  logo: /assets/images/logos/unimontes.png
+  website: https://unimontes.br/
+- name: Universidade Estadual Paulista (UNESP)
+  country: Brazil
+  logo: /assets/images/logos/unesp.svg
+  website: https://www.unesp.br/
+- name: Universidade Federal do Ceará
+  country: Brazil
+  logo: /assets/images/logos/ufc.png
+  website: https://www.ufc.br/
+- name: Université de Lubumbashi
+  country: Democratic Republic of the Congo
+  logo: /assets/images/logos/unilu.png
+  website: https://www.unilu.ac.cd/
+- name: University of Edinburgh
+  country: United Kingdom
+  logo: /assets/images/logos/edinburgh.svg
+  website: https://www.ed.ac.uk/
+- name: University of Turin
+  country: Italy
+  logo: /assets/images/logos/unito.png
+  website: https://www.unito.it/
+- name: Vale S.A.
+  country: Brazil
+  logo: /assets/images/logos/vale.webp
+  website: https://www.vale.com/

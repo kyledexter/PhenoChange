@@ -1,10 +1,66 @@
-# Add one entry for each member. Copy this example and remove "placeholder: true".
-- name: Project member
-  role: Role or responsibility
-  institution: Institution
-  bio: A short biography can be added here.
-  image: /assets/images/person-placeholder.svg
-  website: ""
-  orcid: ""
-  email: ""
-  placeholder: true
+- name: Desirée Ramos
+  group: Coordinators
+  institution: Vale S.A., Brazil
+  image: /assets/images/people/desiree-ramos.jpg
+  website: https://scholar.google.com/citations?user=-O9_YJUAAAAJ
+  link_label: Google Scholar
+- name: Patrícia Morellato
+  group: Coordinators
+  institution: Universidade Estadual Paulista (UNESP), Brazil
+  image: /assets/images/people/patricia-morellato.jpg
+  website: https://fapesp.br/5972/patricia-morellato
+  link_label: FAPESP Profile
+- name: Kyle Dexter
+  group: Coordinators
+  institution: University of Turin, Italy
+  image: /assets/images/people/kyle-dexter.jpg
+  website: https://www.dbios.unito.it/persone/kyle.dexter
+  link_label: University of Turin
+- name: Francisco Maiato Gonçalves
+  group: Site Leaders
+  institution: ISCED-Huíla, Angola
+  image: /assets/images/people/francisco-goncalves.jpg
+  website: https://www.researchgate.net/profile/Francisco-Goncalves-4
+  link_label: ResearchGate
+- name: Vera de Cauwer
+  group: Site Leaders
+  institution: Namibia University of Science and Technology, Namibia
+  image: /assets/images/people/vera-de-cauwer.webp
+  website: https://www.researchgate.net/profile/Vera-De-Cauwer
+  link_label: ResearchGate
+- name: Casey Ryan
+  group: Site Leaders
+  institution: University of Edinburgh, United Kingdom
+  image: /assets/images/people/casey-ryan.jpg
+  website: https://blogs.ed.ac.uk/land-system-science/
+  link_label: Research Group
+- name: Mario Marcos do Espírito Santo
+  group: Site Leaders
+  institution: Universidade Estadual de Montes Claros (UNIMONTES), Brazil
+  image: /assets/images/people/mario-espirito-santo.jpg
+  website: https://www.researchgate.net/profile/Mario-Espirito-Santo
+  link_label: ResearchGate
+- name: Magna Soelma Moura
+  group: Site Leaders
+  institution: Embrapa Semiárido, Brazil
+  image: /assets/images/people/magna-moura.jpg
+  website: https://www.researchgate.net/profile/Magna-Moura-2
+  link_label: ResearchGate
+- name: Italo Coutinho
+  group: Site Leaders
+  institution: Universidade Federal do Ceará, Brazil
+  image: /assets/images/people/italo-coutinho.jpeg
+  website: https://www.researchgate.net/profile/Italo-Coutinho
+  link_label: ResearchGate
+- name: Jonathan Muledi
+  group: Site Leaders
+  institution: Université de Lubumbashi, Democratic Republic of the Congo
+  image: /assets/images/people/jonathan-muledi.jpeg
+  website: https://www.researchgate.net/profile/Jonathan-Muledi
+  link_label: ResearchGate
+- name: Bruna Alberton
+  group: Site Leaders
+  institution: Universidade Estadual Paulista (UNESP), Rio Claro, Brazil
+  image: /assets/images/people/bruna-alberton.svg
+  website: https://www.researchgate.net/profile/Bruna-Alberton
+  link_label: ResearchGate
