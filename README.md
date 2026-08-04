@@ -2,15 +2,6 @@
 
 This repository contains the GitHub Pages website for **PhenoChange: A network for monitoring the phenology of tropical dry forests and savannas**.
 
-## Publish on GitHub Pages
-
-1. Create a public GitHub repository named `PhenoChange` under the account `kyledexter`.
-2. Upload all files and folders from this package to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then save.
-6. After deployment, the site should appear at `https://kyledexter.github.io/PhenoChange/`.
-
 ## Editing content
 
 - Main page text: edit the corresponding `.md` file in the repository root.
@@ -32,28 +23,6 @@ Create folders such as:
 
 Use lowercase filenames without spaces, for example `kyle-dexter.jpg`. In YAML, paths begin with `/assets/images/...`.
 
-## Previewing locally
-
-With Ruby and Bundler installed:
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-Then visit `http://localhost:4000/PhenoChange/`.
-
-## Notes
-
-The website uses the GitHub Pages-supported Jekyll system. The current visual mark is a temporary leaf-and-sun device and can be replaced once a formal PhenoChange logo is developed.
-
-## Current visual assets
-
-Project photographs and the network map are stored in `assets/images/project/`. The homepage, Data page and Protocols page use these files through Jekyll's `relative_url` filter, so they work both locally and at `https://kyledexter.github.io/PhenoChange/`.
-
 ## Protocols page
 
 The navigation now includes a `Protocols` page (`protocols.md`). Replace the placeholder status text and add downloadable files as protocols are finalised.
-
-## People-page note
-Bruna Alberton is included as a Site Leader with a designed placeholder image. Replace `assets/images/people/bruna-alberton.svg` with a portrait later, keeping the same filename or updating `_data/people.yml`.
