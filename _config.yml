@@ -1,0 +1,20 @@
+title: PhenoChange
+tagline: A network for monitoring the phenology of tropical dry forests and savannas
+description: >-
+  PhenoChange uses ground-based camera systems to monitor how the vegetative
+  phenology of tropical dry forests and savannas is shifting under global change.
+url: "https://kyledexter.github.io"
+baseurl: "/PhenoChange"
+repository: kyledexter/PhenoChange
+lang: en-GB
+timezone: Europe/Rome
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+plugins:
+  - jekyll-seo-tag

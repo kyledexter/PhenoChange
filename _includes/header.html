@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="PhenoChange home">
+      <span class="brand-mark" aria-hidden="true">
+        <span class="leaf leaf-one"></span><span class="leaf leaf-two"></span><span class="sun-dot"></span>
+      </span>
+      <span class="brand-text">PhenoChange</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+      <span class="sr-only">Toggle navigation</span><span></span><span></span><span></span>
+    </button>
+    <nav id="site-navigation" class="site-nav" aria-label="Primary navigation">
+      {% for item in site.data.navigation %}
+        {% assign item_url = item.url | relative_url %}
+        <a href="{{ item_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

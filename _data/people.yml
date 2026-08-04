@@ -1,0 +1,10 @@
+# Add one entry for each member. Copy this example and remove "placeholder: true".
+- name: Project member
+  role: Role or responsibility
+  institution: Institution
+  bio: A short biography can be added here.
+  image: /assets/images/person-placeholder.svg
+  website: ""
+  orcid: ""
+  email: ""
+  placeholder: true

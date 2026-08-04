@@ -1,0 +1,7 @@
+# Add partner and supporting institutions here.
+- name: Partner institution
+  country: Country
+  role: Briefly describe the institution's role in PhenoChange.
+  logo: /assets/images/institution-placeholder.svg
+  website: ""
+  placeholder: true
